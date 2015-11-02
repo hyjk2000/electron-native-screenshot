@@ -1,0 +1,11 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arail, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+#output-img {
+  max-width: 100%;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "electron-native-screenshot",
+  "description": "Demo Electron app for native screenshot for Windows",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "ffi": "^2.0.0"
+  }
+}
