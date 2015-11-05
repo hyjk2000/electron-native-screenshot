@@ -28,6 +28,7 @@ var nodes = (() => {
 
 nodes.captureBtn.addEventListener('click', () => {
   imgData = dll.screenCapture('');
+  if (!imgData) return false;
   nodes.outputImg.src = `data:image/png;base64,${imgData}`;
   nodes.saveBtn.disabled = false;
 }, false);
